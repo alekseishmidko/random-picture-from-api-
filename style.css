@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.block{
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+.block__text{
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+}
+.img {
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 75vh;
+}
+.btn{
+    position: absolute;
+    width: 200px;
+    font-size: 42px;
+    padding: 10px 30px;
+    bottom: -70px;
+    left: 40% ;
+    border-radius: 15px;
+    cursor: pointer;
+}
